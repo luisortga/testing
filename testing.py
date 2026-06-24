@@ -2,6 +2,8 @@
 
 import time
 
-def colap():
+def colap() -> None:
     time.sleep(6)
     print('Successful')
+    
+colap()
